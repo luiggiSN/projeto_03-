@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho" data-bs-smooth.srcoll="true">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">DC Entregas</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link" >
+                            <i class="bi bi-house-fill me-1"></i>
+                            Sobre a DC
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link" >
+                            <i class="bi bi-card-text me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link" >
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Entregas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link" >
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+<section id="sobre-o-restaurante">
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="https://zintlexpress.com.br/wp-content/uploads/2023/06/motoboy-express.webp" alt="foto do espaco interno ">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" >
+                <img src="https://transdelivery.com.br/wp-content/uploads/motoboy-para-entregas-rapidas.webp" alt=" vinhos ">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000" >
+                <img src="https://motoboyrmn.com.br/wp-content/uploads/2023/07/entrega-de-produtos-com-motoboy.webp" alt="mesa com comida">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next" >
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/dc.jpg" class="d-block w-100 rounded" alt="Foto do espaco interno">
+                </div>
+                <div class="col-md-7 mt-3 mt-md-0 ">
+                    <h2 class="section-title">Sobre a <span class="text-colored">DC</span></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque illum accusamus? Corrupti dignissimos fuga quos provident molestias! Neque repellat aspernatur illum dicta iusto facere minima ducimus quibusdam aliquid incidunt.</p>
+                    
+                    <h3 class="section-title">Sobre a <span class="text-colored">nossa missão</span></h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eos repellendus, fuga deleniti non nisi quod, consequuntur, nobis reprehenderit voluptate officiis repellat voluptatem pariatur dolore. Nam odit commodi illo accusamus.
+                    </p>
+                    <ul>
+                        <li>
+                            item 1
+                        </li>
+                        <li>
+                            item 2
+                        </li>
+                        <li>
+                            item 3
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="eventos" class="pt-5 pb-5">
+<div class="container">
+    <div class="row">
+        <h2 class="section-title text-center">Para as <span class="text-colored">ocasiões mais importantes</span></h2>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <img src="https://entregassaopaulo.com.br/wp-content/uploads/2021/08/Motoboys-para-servicos-de-cartorio_capa.png"  class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4 ">
+                <i class="bi bi-calendar-heart-fill"></i>
+                Serviços de cartório e bancários</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vel aspernatur beatae facilis dicta! Architecto velit eaque omnis cupiditate ipsa dolores adipisci quos quia dolore odit? Voluptate maxime aspernatur laborum.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img src="https://motoboys.appmotoboyja.com.br/imagens/servico-de-motoboy-entrega-home-care.jpg"  class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-arrow-through-heart-fill"></i>
+                Serviços diversos</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vel aspernatur beatae facilis dicta! Architecto velit eaque omnis cupiditate ipsa dolores adipisci quos quia dolore odit? Voluptate maxime aspernatur laborum.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img src="https://motoboys.appmotoboyja.com.br/imagens/motoboy-coleta-e-entrega.jpg"  class="d-block w-100 rounded mb-2 " alt="">
+            <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-people-fill"></i>
+                Coleta de itens</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vel aspernatur beatae facilis dicta! Architecto velit eaque omnis cupiditate ipsa dolores adipisci quos quia dolore odit? Voluptate maxime aspernatur laborum.
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+<section id="cardapio" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">serviços</span> </h2>
+        </div>
+        <div class="row">
+            <aside class="col-md-2">
+                <nav class="nav nav-pills flex-column nav-cardapio">
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#no-alcool" class="fw-bold text-start nav-link text-colored  active"> Serviços em cartório</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcolicas" class="fw-bold text-start nav-link text-colored ">Serviços em Bancos</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored ">Transporte</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#pratos" class="fw-bold text-start nav-link text-colored ">Entregas</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored ">Rotas de coleta</button>
+                    <button type="button" data-bs-toggle="tab" data-bs-target="#extras" class="fw-bold text-start nav-link text-colored ">Serviços especiais</button>
+                </nav>
+            </aside>
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="no-alcool">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://maranhaomais.com.br/wp-content/uploads/2023/07/Quanto-custa-para-reconhecer-firma-no-cartorio.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">Reconhecimento de assinatura</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://maranhaomais.com.br/wp-content/uploads/2023/07/Quanto-custa-para-reconhecer-firma-no-cartorio.jpg" alt="suco">
+                                <h5 class="text-colored fw-bold mt-2">Procurações</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://maranhaomais.com.br/wp-content/uploads/2023/07/Quanto-custa-para-reconhecer-firma-no-cartorio.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">Escritura e matrícula de imóvel</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://maranhaomais.com.br/wp-content/uploads/2023/07/Quanto-custa-para-reconhecer-firma-no-cartorio.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">Autenticação de documentos</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://maranhaomais.com.br/wp-content/uploads/2023/07/Quanto-custa-para-reconhecer-firma-no-cartorio.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">DUT</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://maranhaomais.com.br/wp-content/uploads/2023/07/Quanto-custa-para-reconhecer-firma-no-cartorio.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">Diversos</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="bebidas-alcolicas">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://pontospravoar.com/wp-content/uploads/2023/10/Lotericas-CAIXA-passam-a-aceitar-pagamento-de-contas-com-cartao-de-credito.jpg" alt="suco">
+                                <h5 class="text-colored fw-bold mt-2">Pagamento de contas</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://images.ctfassets.net/0tlluvssqg9d/3jB8LBjXJB2LwY8FyRCtFE/6c1509c61b6aadc36e61063a4cab6c53/banco24horas_faz_dep__sito.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">Depositos</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://einvestidor.estadao.com.br/wp-content/uploads/2023/01/20549390_240120230616.jpg" alt="coca">
+                                <h5 class="text-colored fw-bold mt-2">Compensação de cheques</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="entradas">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://blog.sportbay.com.br/wp-content/uploads/2023/03/CAPA-Tipos-de-bau-para-moto-para-transportar-e-armanezar-objetos.webp" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Material de obras</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://blog.sportbay.com.br/wp-content/uploads/2023/03/CAPA-Tipos-de-bau-para-moto-para-transportar-e-armanezar-objetos.webp" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Itens de valor</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://blog.sportbay.com.br/wp-content/uploads/2023/03/CAPA-Tipos-de-bau-para-moto-para-transportar-e-armanezar-objetos.webp" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Documentos</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://blog.sportbay.com.br/wp-content/uploads/2023/03/CAPA-Tipos-de-bau-para-moto-para-transportar-e-armanezar-objetos.webp" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Brindes</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="pratos">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://static8.depositphotos.com/1020482/913/i/450/depositphotos_9134357-stock-photo-delivery-scooter-with-big-white.jpg" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Itens pessoais</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://static8.depositphotos.com/1020482/913/i/450/depositphotos_9134357-stock-photo-delivery-scooter-with-big-white.jpgg" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Busca de encomendas</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://static8.depositphotos.com/1020482/913/i/450/depositphotos_9134357-stock-photo-delivery-scooter-with-big-white.jpgg" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Itens de valor</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="sobremesas">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://img.elo7.com.br/product/zoom/42B7D47/10-sacola-g-de-papel-kraft-delivery-c-alca-brinde-tag-sacola-para-doces.jpg" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Brindes de empresas</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://www.entregasimediatas.com.br/imagens/procuro-por-entrega-de-encomenda.jpg" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Encomendas de clientes</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://www.mellotransportesriopreto.com.br/img/posts/postagens/201611091044241689/400/10442409112016.jpg" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Recolhimento de assinaturas</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="extras">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="nome da entrada">
+                                <h5 class="text-colored fw-bold mt-2">Serviços especiais</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="fale-conosco" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center">
+                Fale <span class="text-colored">Conosco</span> 
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-7 mb-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label fw-bold text-colored ">Seu Nome</label>
+                        <input type="text" id="nome" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold text-colored ">Seu email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label fw-bold text-colored ">Seu telefone (opcional)</label>
+                        <input type="tel" id="telefone" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label fw-bold text-colored ">Seu Nome</label>
+                        <textarea class="form-control" id="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn fw-bold">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        Redes Sociais</h3>
+                    <ul class="social-links">
+                        <li class="fs-3">
+                            <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-3 ms-1 me-1">
+                            <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-3">
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereco</h3>
+                <p>
+                    Rua teste exemplo n°404, bairro exemplo - exemplo - ex
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
